@@ -391,7 +391,10 @@ $(document).ready(function () {
             });
         }
     }
-
+	// download button
+	$(".desc").click(function() {
+	  alert('Sorry you can not download our application for the momement. Thanks for you understanding.');
+	});
 
     $(document).ready(function () {
         $('#mc_embed_signup').find('form').ajaxChimp();
