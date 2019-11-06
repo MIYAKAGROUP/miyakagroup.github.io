@@ -53,7 +53,25 @@
 		</div>
 	</header>
 	<!-- end header Area -->
+  <!-- Modal HTML -->
+    <div id="myModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header buttons dark-orange">
+                    <h5 class="modal-title">APP Download</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Sorry you can not download our application for the momement. Thanks for you understanding.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK, Got it!</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+	<!-- end modal HTML-->
 	<!-- start banner Area -->
 	<section class="home-banner-area">
 		<div class="container">
@@ -69,7 +87,7 @@
 					<div class="download-button d-flex flex-row justify-content-start">
 						<div class="buttons dark-orange flex-row d-flex">
 							<i class="fa fa-mobile" aria-hidden="true"></i>
-							<div class="desc">
+							<div class="desc" data-toggle="modal" data-target="#myModal>
 								<a href="#">
 									<p>
 										<span>Available</span> <br>
@@ -80,7 +98,7 @@
 						</div>
 						<div class="buttons dark flex-row d-flex">
 							<i class="fa fa-desktop" aria-hidden="true"></i>
-							<div class="desc">
+							<div class="desc" data-toggle="modal" data-target="#myModal>
 								<a href="#">
 									<p>
 										<span>Available</span> <br>
@@ -216,7 +234,7 @@
 					<div class="download-button d-flex flex-row justify-content-start">
 						<div class="buttons dark-orange flex-row d-flex">
 							<i class="fa fa-apple" aria-hidden="true"></i>
-							<div class="desc">
+							<div class="desc" data-toggle="modal" data-target="#myModal>
 								<a href="#">
 									<p>
 										<span>Available</span> <br>
@@ -227,7 +245,7 @@
 						</div>
 						<div class="buttons dark flex-row d-flex">
 							<i class="fa fa-android" aria-hidden="true"></i>
-							<div class="desc">
+							<div class="desc" data-toggle="modal" data-target="#myModal>
 								<a href="#">
 									<p>
 										<span>Available</span> <br>
@@ -582,7 +600,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>  | Te
 					<div class="download-button d-flex flex-row justify-content-end">
 						<div class="buttons gray flex-row d-flex">
 							<i class="fa fa-apple" aria-hidden="true"></i>
-							<div class="desc">
+							<div class="desc" data-toggle="modal" data-target="#myModal>
 								<a href="#">
 									<p>
 										<span>Available</span> <br>
@@ -593,7 +611,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>  | Te
 						</div>
 						<div class="buttons gray flex-row d-flex">
 							<i class="fa fa-android" aria-hidden="true"></i>
-							<div class="desc">
+							<div class="desc" data-toggle="modal" data-target="#myModal>
 								<a href="#">
 									<p>
 										<span>Available</span> <br>

@@ -393,7 +393,9 @@ $(document).ready(function () {
     }
 	// download button
 	$(".desc").click(function() {
-	  alert('Sorry you can not download our application for the momement. Thanks for you understanding.');
+	  //alert('Sorry you can not download our application for the momement. Thanks for you understanding.');
+	  
+        $("#myModal").modal("show");
 	});
 
     $(document).ready(function () {
